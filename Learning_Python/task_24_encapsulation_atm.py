@@ -8,7 +8,7 @@ class ATMCard:
             self.__pin == new_pin
             print ("PIN changed successfully!")
         else:
-            print ("Incorrect corrent PIN! Access denied.")
+            print ("Incorrect current PIN! Access denied.")
 
 
 my_card = ATMCard ("1234-5678-9012", 1122)
