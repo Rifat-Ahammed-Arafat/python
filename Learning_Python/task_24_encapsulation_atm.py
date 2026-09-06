@@ -1,3 +1,7 @@
+"""টাস্ক: ATMCard নামে একটি ক্লাস তৈরি করো যার ভেতরে card_number এবং একটি প্রাইভেট ভেরিয়েবল __pin থাকবে।
+
+একটি মেথড বানাও change_pin(old_pin, new_pin)। যদি ইউজার সঠিক old_pin দেয়, তবেই পিন পরিবর্তন হবে এবং প্রিন্ট করবে PIN changed successfully!, ভুল পিন দিলে প্রিন্ট করবে Incorrect current PIN!।"""
+
 class ATMCard:
     def __init__(self, card_number, pin):
         self.card_number = card_number
