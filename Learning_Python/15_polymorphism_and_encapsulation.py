@@ -29,7 +29,7 @@ class BankAccount:
 
     def deposit(self, amount):
         if amount > 0:
-            self.__balance = amount
+            self.__balance += amount
             print (f"Deposited ${amount} successfully.")
         else:
             print ("Invalid deposit amount!")
